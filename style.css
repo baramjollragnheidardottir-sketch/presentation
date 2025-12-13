@@ -1,5 +1,24 @@
+* {
+  box-sizing: border-box; /* this is a CSS reset!*/
+  margin: 0;
+  padding: 0;
+}
+
+:root{
+  --color-bg: rgba(4, 170, 109, 0.1725);
+  --color-text-heading: #000000;
+  --color-text-body: #F2EFDC;
+  --font-heading: "Agia Valley";
+  --font-body: "Arcon";
+}
+
 body {
-    background-color: #FECE92; 
-    max-width: 1000px;
-    margin: auto;
+    background-color: var(--color-bg);
+    font-family: var(--font-body);
+    color: var(--color-text-body);
+}
+
+h1, h2 {
+    font-family: var(--font-heading);
+    color: var(--color-text-heading);
 }
