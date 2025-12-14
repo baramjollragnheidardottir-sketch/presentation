@@ -17,6 +17,8 @@
   --font-size-button: 1rem;
   --border-radius: 25px;
   --border-ui: 1px solid black;
+  --color-header-gradient-top:  rgb(140, 62, 17);
+  --color-header-gradient-bottom: rgb(242, 239, 220);
   
 }
 
@@ -27,7 +29,7 @@ body {
     font-size: var(--font-size-body);
 }
 
-h1, h2 {
+h1 {
     font-family: var(--font-heading);
     color: var(--color-text-heading);
     font-size: var(--font-size-heading);
@@ -57,4 +59,13 @@ h1, h2 {
   border: var(--border-ui);
   padding: 0.75rem 1.25rem;
   background-color: var(--color-text-box-bg);
+}
+
+.header {
+  background-image: linear-gradient(
+    to bottom,
+    var(--color-header-gradient-top),
+    var(--color-header-gradient-bottom)
+  );
+  padding: 1.5rem 0
 }
