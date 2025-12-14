@@ -8,23 +8,48 @@
   --color-bg: rgba(254, 206, 146, 0.1725);
   --color-text-heading: #000000;
   --color-text-body: #F2EFDC;
+  --color-button-bg: rgb(50,64,44);
+  --color-text-box-bg: rgb(140, 62, 17);
   --font-heading: "Agia Valley";
   --font-body: "Arcon";
+  --font-size-body: 1rem;
+  --font-size-heading: 2rem;
+  --font-size-button: 1rem;
+  --radius-button: 25px;
+  
 }
 
 body {
     background-color: var(--color-bg);
     font-family: var(--font-body);
     color: var(--color-text-body);
+    font-size: var(--font-size-body);
 }
 
 h1, h2 {
     font-family: var(--font-heading);
     color: var(--color-text-heading);
+    font-size: var(--font-size-heading);
 }
 
 .container {
     max-width: 1000px;
     padding: 1rem;
     margin: 0 auto;
+}
+
+.button {
+  font-size: var(--font-size-button);
+  font-family: var(--font-body);
+  color: var(--color-text-body);
+  padding: 0.75rem 1.25rem;
+  background-color: var(--color-button-bg);
+  border-radius: var(--radius-button);
+}
+
+.text-box{
+  font-size: 0.9rem;
+  font-family: var(--font-body);
+  color: var(--color-text-box-bg);
+  border-radius: var(--radius-button);
 }
