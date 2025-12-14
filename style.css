@@ -16,7 +16,7 @@
   --font-size-heading: 2rem;
   --font-size-button: 1rem;
   --border-radius: 25px;
-  --border: 1px solid black;
+  --border-ui: 1px solid black;
   
 }
 
@@ -46,14 +46,15 @@ h1, h2 {
   padding: 0.75rem 1.25rem;
   background-color: var(--color-button-bg);
   border-radius: var(--border-radius);
-  border: var(--border);
+  border: var(--border-ui);
 }
 
 .text-box{
   font-size: 0.9rem;
   font-family: var(--font-body);
-  color: var(--color-text-box-bg);
+  color: var(--color-text-body);
   border-radius: var(--border-radius);
-  border: var(--border);
+  border: var(--border-ui);
   padding: 0.75rem 1.25rem;
+  background-color: var(--color-text-box-bg);
 }
