@@ -115,8 +115,28 @@ h1 {
 }
 .footer-content {
   display: flex;
-  justify-content: space-between;
-  align-items: flex-end;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.footer-image img {
+  width: 100%;
+  max-width: 160px;   /* þú velur */
+  height: auto;
+  border-radius: 50%;
+}
+.footer-logos {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+.footer-logos a {
+ cursor: pointer;
+}
+.footer-logos img {
+  width: 48px;        
+  height: 48px;
+  object-fit: cover;
+  border-radius: 50%;
 }
 
 @keyframes shake-lr {
