@@ -28,6 +28,9 @@ body {
     font-family: var(--font-body);
     color: var(--color-text-body);
     font-size: var(--font-size-body);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 h1 {
@@ -110,12 +113,12 @@ h1 {
     var(--color-header-gradient-top),
     var(--color-header-gradient-bottom)
   );
-  padding: 1.5rem 0;
+  padding: 1rem 0;
 }
 .footer-content {
   display: flex;
   flex-direction: column;
-  gap: 1.5rem;
+  gap: 1rem;
 }
 .footer-image {
   display: flex;
