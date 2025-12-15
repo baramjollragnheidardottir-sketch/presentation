@@ -50,7 +50,23 @@ h1 {
   background-color: var(--color-button-bg);
   border-radius: var(--border-radius);
   border: var(--border-ui);
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
 }
+.button:hover {
+  filter: brightness(1.05);
+}
+.button:focus-visible {
+  outline: 2px solid var(--color-text-heading);
+  outline-offset: 3px;
+}
+.button:active {
+  transform: translateY(1px);
+}
+
 
 .text-box{
   font-size: 0.9rem;
@@ -60,6 +76,7 @@ h1 {
   border: var(--border-ui);
   padding: 0.75rem 1.25rem;
   background-color: var(--color-text-box-bg);
+  text-align: center;
 }
 
 .header {
@@ -79,8 +96,38 @@ h1 {
   display: flex;
   gap: 0.75rem;
 }
+.header-content nav .button:hover {
+  animation: shake-lr 0.6s ease-in-out both;
+}
 .header-content h1 {
   font-size: var(--font-size-logo);
   line-height: 1;
   margin: 0;
+}
+
+@keyframes shake-lr {
+  0%,
+  100% {
+    transform: rotate(0deg);
+    transform-origin: 50% 50%;
+  }
+  10% {
+    transform: rotate(8deg);
+  }
+  20%,
+  40%,
+  60% {
+    transform: rotate(-10deg);
+  }
+  30%,
+  50%,
+  70% {
+    transform: rotate(10deg);
+  }
+  80% {
+    transform: rotate(-8deg);
+  }
+  90% {
+    transform: rotate(8deg);
+  }
 }
