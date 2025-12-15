@@ -165,3 +165,19 @@ h1 {
     transform: rotate(8deg);
   }
 }
+
+@media (min-width: 1024px) {
+  .header {
+    padding: 4rem 0;
+  }
+
+  .footer-content {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .footer-logos {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
