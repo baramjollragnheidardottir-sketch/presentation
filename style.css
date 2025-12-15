@@ -14,6 +14,7 @@
   --font-body: "Arcon";
   --font-size-body: 1rem;
   --font-size-heading: 2rem;
+  --font-size-logo: 1.5rem;
   --font-size-button: 1rem;
   --border-radius: 25px;
   --border-ui: 1px solid black;
@@ -67,5 +68,19 @@ h1 {
     var(--color-header-gradient-top),
     var(--color-header-gradient-bottom)
   );
-  padding: 4rem 0
+  padding: 1.5rem 0;
+}
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.header-content nav {
+  display: flex;
+  gap: 0.75rem;
+}
+.header-content h1 {
+  font-size: var(--font-size-logo);
+  line-height: 1;
+  margin: 0;
 }
