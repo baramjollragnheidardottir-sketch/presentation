@@ -110,6 +110,9 @@ h1 {
   line-height: 1;
   margin: 0;
 }
+.header .container{
+  padding-inline: 2rem;
+}
 
 .footer{
   background-image: linear-gradient(
@@ -152,6 +155,9 @@ h1 {
   height: 48px;
   object-fit: cover;
   border-radius: 50%;
+}
+.footer .container {
+  padding-inline: 2rem;
 }
 
 .project h1 {
