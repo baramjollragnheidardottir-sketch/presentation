@@ -264,6 +264,7 @@ h1 {
   }
   .footer-logos {
     grid-template-columns: 1fr;
+    justify-items: end;
   }
   .about-content {
     grid-template-columns: 1fr 1fr;
