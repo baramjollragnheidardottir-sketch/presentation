@@ -114,13 +114,14 @@ h1 {
   max-width: 1400px; 
 }
 
-.footer{
+.footer {
   background-image: linear-gradient(
-    to top),
+    to top,
     var(--color-header-gradient-top),
-    var(--color-header-gradient-bottom),
-    padding: 1rem 0; 
-  }
+    var(--color-header-gradient-bottom)
+  );
+  padding: 1rem 0;
+}
 .footer-content {
   display: flex;
   flex-direction: column;
