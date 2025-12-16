@@ -111,7 +111,7 @@ h1 {
   margin: 0;
 }
 .header .container{
-  padding-inline: 2rem;
+  max-width: 1400px; 
 }
 
 .footer{
@@ -157,7 +157,7 @@ h1 {
   border-radius: 50%;
 }
 .footer .container {
-  padding-inline: 2rem;
+  max-width: 1400px; 
 }
 
 .project h1 {
