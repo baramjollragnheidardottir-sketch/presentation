@@ -206,6 +206,7 @@ h1 {
   border: var(--border-ui);
   border-radius: 999px;  /* sporöskjulaga */
   min-height: var(--about-block-height);
+  overflow: hidden;
 }
 .about-image img {
   width: 100%;
