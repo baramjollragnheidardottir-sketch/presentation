@@ -118,7 +118,7 @@ h1 {
   background-image: linear-gradient(
     to top,
     var(--color-header-gradient-top),
-    var(--color-header-gradient-bottom)
+    var(--color-header-gradient-bottom),
     padding: 1rem 0; 
   );
   
