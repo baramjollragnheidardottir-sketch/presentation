@@ -273,7 +273,7 @@ h1 {
     align-items: start; 
   }
   .about-image {
-    max-height: 200px;   /* prófaðu 180–220 */
+    max-height: 240px;   
   }
   :root {
     --about-block-height: 240px;
@@ -282,4 +282,8 @@ h1 {
     grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
   } 
+  .about .text-box {
+    font-size: 1rem;      /* var 0.9rem */
+    line-height: 1.5;
+  }
 }
