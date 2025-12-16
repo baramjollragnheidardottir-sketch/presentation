@@ -119,8 +119,9 @@ h1 {
     to top,
     var(--color-header-gradient-top),
     var(--color-header-gradient-bottom)
+    padding: 1rem 0; 
   );
-  padding: 1rem 0;
+  
 }
 .footer-content {
   display: flex;
@@ -133,7 +134,7 @@ h1 {
 }
 .footer-image img {
   width: 100%;
-  max-width: 160px;   /* þú velur */
+  max-width: 200px;
   height: auto;
   border-radius: 50%;
 }
