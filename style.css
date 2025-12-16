@@ -213,7 +213,7 @@ h1 {
   height: 100%;
   display: block;
   object-position: center 30%;
-  object-fit: cover;     /* fyllir sporöskjuna */
+  object-fit: contain;
 }
 .about .text-box {
   display: flex;
