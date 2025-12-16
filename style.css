@@ -268,11 +268,12 @@ h1 {
     justify-items: end;
   }
   .about-content {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 0.9fr 1.1fr;
     gap: 2rem;
-  } 
+    align-items: start; 
+  }
   :root {
-    --about-block-height: 280px;
+    --about-block-height: 240px;
   }
   .project-content {
     grid-template-columns: repeat(3, 1fr);
