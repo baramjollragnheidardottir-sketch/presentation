@@ -272,6 +272,9 @@ h1 {
     gap: 2rem;
     align-items: start; 
   }
+  .about-image {
+    max-height: 200px;   /* prófaðu 180–220 */
+  }
   :root {
     --about-block-height: 240px;
   }
