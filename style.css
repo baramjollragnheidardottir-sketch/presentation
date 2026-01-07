@@ -200,17 +200,19 @@ h1 {
 .about-content {
   display: grid;
   grid-template-columns: auto 1fr;
-  gap: 1rem;
   align-items: stretch;
+  gap: 1rem;
 }
 .about-image {
   width: fit-content;
-  height: var(--about-block-height);
+  min-height: var(--about-block-height);
+  height: 100%;
   border: var(--border-ui);
-  border-radius: 20%;
+  border-radius: 20px;
   overflow: hidden;
-  display: inline-block;
-  align-self: center;
+  display: grid;
+  align-self: stretch;
+  place-content: center;
 }
 .about-image img {
   height: 100%;
