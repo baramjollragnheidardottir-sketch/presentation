@@ -205,14 +205,13 @@ h1 {
 }
 .about-image {
   width: fit-content;
-  min-height: var(--about-block-height);
-  
+  height: var(--about-block-height);
   border: var(--border-ui);
-  border-radius: 20%;
+  border-radius: 20px;
   overflow: hidden;
   display: grid;
+  place-items: center;
   align-self: center;
-  place-content: center;
 }
 .about-image img {
   height: 100%;
