@@ -16,7 +16,7 @@
   --font-size-heading: 2rem;
   --font-size-logo: 1.5rem;
   --font-size-button: 1rem;
-  --border-radius: 25px;
+  --border-radius: 25%;
   --border-ui: 1px solid black;
   --color-header-gradient-top:  rgb(140, 62, 17);
   --color-header-gradient-bottom: rgb(242, 239, 220);
@@ -200,18 +200,18 @@ h1 {
 .about-content {
   display: grid;
   grid-template-columns: auto 1fr;
-  align-items: stretch;
+  align-items: center;
   gap: 1rem;
 }
 .about-image {
   width: fit-content;
   min-height: var(--about-block-height);
-  height: 100%;
+  
   border: var(--border-ui);
-  border-radius: 20px;
+  border-radius: 20%;
   overflow: hidden;
   display: grid;
-  align-self: stretch;
+  align-self: center;
   place-content: center;
 }
 .about-image img {
@@ -219,6 +219,7 @@ h1 {
   width: auto;
   object-fit: contain;
   display: block;
+  max-width: 100%;
 }
 .text-box {
   display: flex;
