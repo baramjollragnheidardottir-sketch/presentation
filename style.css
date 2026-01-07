@@ -16,7 +16,7 @@
   --font-size-heading: 2rem;
   --font-size-logo: 1.5rem;
   --font-size-button: 1rem;
-  --border-radius: 25%;
+  --border-radius: 25px;
   --border-ui: 1px solid black;
   --color-header-gradient-top:  rgb(140, 62, 17);
   --color-header-gradient-bottom: rgb(242, 239, 220);
