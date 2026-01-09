@@ -283,7 +283,7 @@ h1 {
     line-height: 1.5;
   }
   :root {
-    --about-block-height: 320px;
+    --about-block-height: 430px;
   }
   .project-content {
     grid-template-columns: repeat(3, 1fr);
