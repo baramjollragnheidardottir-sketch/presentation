@@ -199,7 +199,6 @@ h1 {
 }
 .about-content {
   display: grid;
-  grid-template-columns: 1fr 1fr;
   align-items: stretch;
   gap: 2rem;
 }
@@ -270,12 +269,14 @@ h1 {
     justify-items: end;
   }
   .about-content {
-    grid-template-columns: 0.9fr 1.1fr;
+    grid-template-columns: 280px 1.1fr;
     gap: 2rem;
-    align-items: start; 
+    align-items: stretch; 
   }
   .about-image {
-    height: var(--about-block-height);  
+    height: var(--about-block-height);
+    width: 280px;
+    justify-self: center;
   }
   .about .text-box {
     font-size: 1.4rem;
