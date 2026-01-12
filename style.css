@@ -269,18 +269,18 @@ h1 {
     justify-items: end;
   }
   .about-content {
-    grid-template-columns: 280px 1.1fr;
-    gap: 2rem;
+    grid-template-columns: 280px 1fr;
+    column-gap: 2rem;
     align-items: stretch; 
   }
   .about-image {
     height: var(--about-block-height);
     width: 280px;
-    justify-self: center;
+    justify-self: end;
   }
   .about .text-box {
     max-width: 560px;
-   justify-self: end;
+   justify-self: start;
    padding: 2rem 2.25rem;
    font-size: 1.6rem;
    line-height: 1.55;
