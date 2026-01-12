@@ -33,6 +33,10 @@ body {
     flex-direction: column;
 }
 
+section {
+  margin-block: 5rem;
+}
+
 main {
   flex: 1;
 }
@@ -291,13 +295,15 @@ h1 {
     --about-block-height: 460px;
   }
   .project-content {
-    grid-template-columns: repeat(3, 1fr);
-    gap: 6rem;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 3rem;
     align-items: stretch;
   } 
   .project-image {
     height: var(--about-block-height);
-    width: 280px;
-    justify-self: stretch;
+    width: 100%;
+    border: var(--border-ui);
+    border-radius: 20px;
+    overflow: hidden;
 }
 }
