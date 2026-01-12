@@ -270,7 +270,7 @@ h1 {
   }
   .about-content {
     grid-template-columns: 1fr 1fr;
-    column-gap: 4rem;
+    column-gap: 6rem;
     align-items: stretch; 
   }
   .about-image {
