@@ -179,6 +179,7 @@ h1 {
   height: var(--about-block-height);
   border: var(--border-ui);
   border-radius: 20px;
+  overflow: hidden;
 }
 .project-image img {
   height: 100%;
