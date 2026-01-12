@@ -166,7 +166,8 @@ h1 {
 }
 .project-content {
   display: grid;
-  gap: 1.5rem;
+  align-items: stretch;
+  gap: 2rem;
 }
 .project-actions {
   display: flex;
@@ -175,16 +176,16 @@ h1 {
 }
 .project-image {
   width: 100%;
+  height: var(--about-block-height);
   border: var(--border-ui);
-  border-radius: var(--border-radius);
-  overflow: hidden;  /* klippir myndina inn í lögun */
-  min-height: var(--about-block-height);
+  border-radius: 20px;
 }
 .project-image img {
-  width: 100%;
   height: 100%;
-  display: block;   /* ekki grid */
+  width: 100%;
   object-fit: cover;
+  display: block;
+  object-position: center 20%;
 }
 .project-image video {
   width: 100%;
@@ -290,6 +291,12 @@ h1 {
   }
   .project-content {
     grid-template-columns: repeat(3, 1fr);
-    gap: 2rem;
+    gap: 6rem;
+    align-items: stretch;
   } 
+  .project-image {
+    height: var(--about-block-height);
+    width: 280px;
+    justify-self: stretch;
+}
 }
