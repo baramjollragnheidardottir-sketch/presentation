@@ -279,8 +279,11 @@ h1 {
     justify-self: center;
   }
   .about .text-box {
-    font-size: 1.4rem;
-    line-height: 1.5;
+    max-width: 560px;
+   justify-self: end;
+   padding: 2rem 2.25rem;
+   font-size: 1.6rem;
+   line-height: 1.55;
   }
   :root {
     --about-block-height: 460px;
