@@ -248,6 +248,9 @@ h1 {
 .about-page .about-image img{
   height: 100%;
 }
+.about-page .about .text-box p + p {
+  margin-top: 0.9rem;
+}
 
 @keyframes shake-lr {
   0%,
