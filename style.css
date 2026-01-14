@@ -347,7 +347,7 @@ h1 {
   }
   .about-page .about .text-box {
     max-width: none;
-    font-size: 1rem;
-    line-height: 1;
+    font-size: 1.25rem;
+    line-height: 1.25;
   }
 }
