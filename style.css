@@ -234,6 +234,21 @@ h1 {
   margin-top: auto;
 }
 
+.about-page .about-content{
+  align-items: stretch;
+}
+.about-page .about-image{
+  height: auto;
+  min-height: var(--about-block-height);
+}
+.about-page .about .text-box{
+  height: auto;
+  min-height: var(--about-block-height);
+}
+.about-page .about-image img{
+  height: 100%;
+}
+
 @keyframes shake-lr {
   0%,
   100% {
