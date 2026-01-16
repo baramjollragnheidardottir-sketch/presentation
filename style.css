@@ -316,13 +316,14 @@ h1 {
   border: var(--border-ui);
   border-radius: 20px;
   overflow: hidden;
-  height: calc(var(--about-block-height) / 2);
+  height: 360px;
 }
 .p1-page .ba-card img {
   width: 100%;
   height: 100%;
   object-fit: contain;
   display: block;
+
 }
 .p1-page .label {
   position: absolute;
