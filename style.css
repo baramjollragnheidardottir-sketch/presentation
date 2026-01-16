@@ -241,12 +241,12 @@ h1 {
   height: auto;
   min-height: var(--about-block-height);
 }
+.about-page .about-image img{
+  height: 100%;
+}
 .about-page .about .text-box{
   height: auto;
   min-height: var(--about-block-height);
-}
-.about-page .about-image img{
-  height: 100%;
 }
 .about-page .about .text-box p + p {
   margin-top: 0.9rem;
@@ -467,6 +467,6 @@ h1 {
     grid-template-columns: 1fr 1fr;
   }
   .p1-page .ba-card {
-    height: 420px;
+    height: 460px;
   }
 }
