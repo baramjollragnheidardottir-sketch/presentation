@@ -466,4 +466,7 @@ h1 {
   .p1-page .before-after {
     grid-template-columns: 1fr 1fr;
   }
+  .p1-page .ba-card {
+    height: 420px;
+  }
 }
