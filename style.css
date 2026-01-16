@@ -302,6 +302,43 @@ h1 {
   --about-block-height: 560px;
 }
 
+.p1-page .p1-layout {
+  display: grid;
+  gap: 2rem;
+}
+.p1-page .before-after {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+}
+.p1-page .ba-card {
+  position: relative;
+  border: var(--border-ui);
+  border-radius: 20px;
+  overflow: hidden;
+  height: calc(var(--about-block-height) / 2);
+}
+.p1-page .ba-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+.p1-page .label {
+  position: absolute;
+  bottom: 1rem;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 0.6rem 1.1rem;
+  background-color: var(--color-button-bg);
+  color: var(--color-text-body);
+  border-radius: var(--border-radius);
+  border: var(--border-ui);
+  font-family: var(--font-body);
+  font-size: var(--font-size-button);
+  pointer-events: none;
+}
+
 @keyframes shake-lr {
   0%,
   100% {
@@ -411,5 +448,9 @@ h1 {
     max-width: none;
     font-size: 1.1rem;
     line-height: 1.35;
+  }
+
+  .p1-page .before-after {
+    grid-template-columns: 1fr 1fr;
   }
 }
