@@ -451,5 +451,9 @@ h1 {
   .p1-page .ba-card {
     height: 680px;
   }
+  .p1-page .about .text-box{
+  max-width: none;
+  width: 100%;
+  }
 
 }
