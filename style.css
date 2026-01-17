@@ -448,7 +448,7 @@ h1 {
     font-size: 1.1rem;
     line-height: 1.25;
   }
-  
+
   .project-detail-page:not(.p1-page) .about-content{
     grid-template-columns: 520px 1fr;
     column-gap: 6rem;
@@ -472,5 +472,20 @@ h1 {
   }
   .p1-page .ba-card {
     height: 680px;
+  }
+
+  .p2-page .about-content{
+    grid-template-columns: 520px 1fr;
+    column-gap: 6rem;
+    align-items: stretch;
+  }
+  .p2-page .project-card{
+    aspect-ratio: auto;
+    height: var(--about-block-height);
+  }
+  .p2-page .about .text-box{
+    max-width: none;
+    font-size: 1.1rem;
+    line-height: 1.35;
   }
 }
