@@ -483,9 +483,9 @@ h1 {
     aspect-ratio: auto;
     height: var(--about-block-height);
   }
-  .p2-page .about .text-box{
-    max-width: none;
-    font-size: 1.1rem;
-    line-height: 1.35;
-  }
+  .p2-page .text-box{
+  height: var(--about-block-height);
+  display: flex;
+  flex-direction: column;
+}
 }
