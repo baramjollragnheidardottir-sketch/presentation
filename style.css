@@ -448,9 +448,15 @@ h1 {
     font-size: 1.1rem;
     line-height: 1.25;
   }
-
-  .project-detail-page .about-content {
+  
+  .project-detail-page:not(.p1-page) .about-content{
     grid-template-columns: 520px 1fr;
+    column-gap: 6rem;
+    align-items: start;
+  }
+  .project-detail-page:not(.p1-page) .project-card{
+    height: var(--about-block-height);
+    aspect-ratio: auto;
   }
   .project-detail-page .about-image {
     width: 520px;
