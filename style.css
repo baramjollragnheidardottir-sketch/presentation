@@ -454,6 +454,7 @@ h1 {
   .p1-page .about .text-box{
   max-width: none;
   width: 100%;
+  font-size: 1.15rem;
   }
 
 }
