@@ -278,11 +278,12 @@ h1 {
   object-fit: cover;
   display: block;
 }
-.project-button {
+.project-button{
   position: absolute;
   bottom: 1.25rem;
   left: 50%;
   transform: translateX(-50%);
+  will-change: transform;
 }
 .project-card:hover img {
   transform: scale(1.03);
