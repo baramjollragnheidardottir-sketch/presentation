@@ -475,16 +475,16 @@ h1 {
   }
 
   .p2-page .about-content{
-    grid-template-columns: 520px 1fr;
-    column-gap: 6rem;
-    align-items: stretch;
-  }
+  grid-template-columns: 1fr 1.2fr; /* textabox breiðara */
+  column-gap: 6rem;
+  align-items: stretch;
+}
   .p2-page .project-card{
     aspect-ratio: auto;
     height: var(--about-block-height);
   }
   .p2-page .text-box{
-  height: var(--about-block-height);
+  height: 100%;
   display: flex;
   flex-direction: column;
 }
