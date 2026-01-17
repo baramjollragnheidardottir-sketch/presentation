@@ -253,7 +253,7 @@ h1 {
 }
 
 .myprojects-page .container{
-  max-width: 1280px; /* prófaðu 1200–1400 eftir smekk */
+  max-width: 1280px;
 }
 .project-grid {
   display: grid;
@@ -265,20 +265,20 @@ h1 {
   border: var(--border-ui);
   border-radius: 20px;
   overflow: hidden;
-  aspect-ratio: 3 / 4; /*hærra er 2/3*/
+  aspect-ratio: 3 / 4; 
 }
 .project-card img {
   width: 100%;
   height: 100%;
   object-fit: cover;
   display: block;
+  transition: transform .35s ease;
 }
 .project-button{
   position: absolute;
   bottom: 1.25rem;
   left: 50%;
   transform: translateX(-50%);
-  transition: transform .2s ease;
   will-change: transform;
 }
 .project-button:active{
@@ -288,14 +288,14 @@ h1 {
   outline: none;
 }
 .project-card:hover img {
-  transform: scale(1.03);
-  transition: transform .35s ease;
+  transform: scale(1.03) translateY(1px);
 }
 .project-card video{
   width: 100%;
   height: 100%;
   object-fit: cover;
   display: block;
+  transition: transform .35s ease;
 }
 .project-card:hover video{
   transform: scale(1.03);
@@ -389,10 +389,8 @@ h1 {
   
   .footer-content {
     flex-direction: row;
-    align-items: center;
     justify-content: space-between;
-    padding: 0.5rem 0;
-    padding-block: 0;
+    align-items: center;
   }
   .footer-logos {
     grid-template-columns: 1fr;
