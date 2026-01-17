@@ -321,7 +321,7 @@ h1 {
   object-position: center;
   display: block;
 }
-.p1 .ba-card video{
+.p1-page .ba-card video{
   width: 100%;
   height: 100%;
   object-fit: contain;
