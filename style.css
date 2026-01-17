@@ -1,5 +1,5 @@
 * {
-  box-sizing: border-box; /* this is a CSS reset!*/
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
@@ -66,6 +66,7 @@ h1 {
   align-items: center;
   justify-content: center;
   cursor: pointer;
+  transition: filter .2s ease, transform .2s ease;
 }
 .button:hover {
   filter: brightness(1.05);
@@ -112,7 +113,6 @@ h1 {
 .header-content h1 {
   font-size: var(--font-size-logo);
   line-height: 1;
-  margin: 0;
 }
 .header .container{
   max-width: 1400px; 
@@ -136,18 +136,13 @@ h1 {
   justify-content: center;
 }
 .footer-image img {
-  width: 100%;
   max-width: 220px;
-  height: auto;
   border-radius: 50%;
 }
 .footer-logos {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 1rem;
-}
-.footer-logos a {
-  cursor: pointer;
 }
 .footer-logos a:focus-visible {
   outline: 2px solid var(--color-text-heading);
@@ -285,6 +280,9 @@ h1 {
   transform: translateX(-50%);
   transition: transform .2s ease;
   will-change: transform;
+}
+.project-button:active{
+  transform: translateX(-50%);
 }
 .project-button:focus{
   outline: none;
