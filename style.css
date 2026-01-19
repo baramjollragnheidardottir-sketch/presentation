@@ -225,11 +225,8 @@ h1 {
   height: var(--about-block-height);
 }
 .about .text-box .button {
-   margin-top: auto;
   align-self: center;
-  display: flex;
-  gap: 0.75rem;
-  justify-content: center;
+  margin-top: auto;
 }
 
 .about-page .about-content{
@@ -249,9 +246,7 @@ h1 {
 .about-page .about .text-box p + p {
   margin-top: 0.9rem;
 }
-.about .text-box .button-group{
-  margin-top: auto;
-  align-self: center;
+.about-page .text-box .button-group {
   display: flex;
   gap: 0.75rem;
   justify-content: center;
